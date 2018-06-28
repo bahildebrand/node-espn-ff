@@ -221,6 +221,13 @@ export interface IPlayer {
      */
     team: string;
     /**
+     * Position the player plays.
+     *
+     * @type {string}
+     * @memberOf IPlayer
+     */
+    position?: string;
+    /**
      * Players season long statistics.
      *
      * @type {IPlayerSeasonStatistics}
@@ -308,4 +315,12 @@ export interface IPlayerSeasonStatistics {
      * @memberOf IPlayerSeasonStatistics
      */
     last_game_points: number;
+    /**
+     * Projected points for next game.
+     *
+     * @type {number}
+     * @memberOf IPlayerSeasonStatistics
+     */
+    projected_points: number;
+
 }

@@ -76,6 +76,23 @@ export default class EspnFantasyFootball {
     }
 
     /**
+     * Gets the top waiver players.
+     *
+     * @param {number} playerPos - Can be null for no position requested
+     * @param {FetchParseCallback<types.IPlayer[]>} callback
+     * @returns {void}
+     *
+     * @memberOf EspnFantasyFootball
+     */
+    public getWaivers(playerPos: number, callback: FetchParseCallback<types.IPlayer[]>): void {
+        let query: any = {};
+
+        if (playerPos) { query.teamId = playerPos; }
+
+        return this.espnGetAndParse('waivers', 'freeagency', query, callback)
+    }
+
+    /**
      * Gets the active roster for the specified fantasy team.
      *
      * @param {number} teamId - Can be null for the default team identity

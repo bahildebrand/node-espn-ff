@@ -22,10 +22,11 @@ export class ParserService {
         this.addParsers('./Clubhouse');
         this.addParsers('./Owners');
         this.addParsers('./Scoreboard');
+        this.addParsers('./Waivers');
     }
 
     parseHtmlContent(key: string, html: string): any {
-        const selector = cheerio.load(html);
+        const selector = cheerio.load(html, {decodeEntities: false});
 
         let rootParser = this.parsers.get(key);
 

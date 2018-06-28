@@ -85,7 +85,8 @@ export default class ClubhouseParser implements IContentParser {
                 player_rank: parseInt(cheerio('td:nth-of-type(8)', element).text()),
                 total_points: parseFloat(cheerio('td:nth-of-type(9)', element).text()),
                 average_points: parseFloat(cheerio('td:nth-of-type(10)', element).text()),
-                last_game_points: parseFloat(cheerio('td:nth-of-type(11)', element).text())
+                last_game_points: parseFloat(cheerio('td:nth-of-type(11)', element).text()),
+                projected_points: 1
             }
         };
     }
