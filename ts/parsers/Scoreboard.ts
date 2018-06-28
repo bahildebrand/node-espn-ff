@@ -1,4 +1,4 @@
-import { IContentParser, IParseContext } from './parserService';
+import { IContentParser, IParseContext } from './ParserService';
 import * as types from '../types';
 import * as cheerio from 'cheerio';
 import * as _ from 'lodash';
