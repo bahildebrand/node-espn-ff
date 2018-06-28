@@ -78,16 +78,32 @@ export default class EspnFantasyFootball {
     /**
      * Gets the top waiver players.
      *
-     * @param {number} playerPos - Can be null for no position requested
+     * @param {string} playerPos - Can be null for no position requested
      * @param {FetchParseCallback<types.IPlayer[]>} callback
      * @returns {void}
      *
      * @memberOf EspnFantasyFootball
      */
-    public getWaivers(playerPos: number, callback: FetchParseCallback<types.IPlayer[]>): void {
+    public getWaivers(playerPos: string, callback: FetchParseCallback<types.IPlayer[]>): void {
         let query: any = {};
 
-        if (playerPos) { query.teamId = playerPos; }
+        if (playerPos) {
+            if(playerPos == "QB") {
+                query.slotCategoryId = 0;
+            } else if(playerPos == "RB") {
+                query.slotCategoryId = 2;
+            } else if(playerPos == "WR") {
+                query.slotCategoryId = 4;
+            } else if(playerPos == "TE") {
+                query.slotCategoryId = 6;
+            } else if(playerPos == "FLEX") {
+                query.slotCategoryId = 23;
+            } else if(playerPos == "DST") {
+                query.slotCategoryId = 16;
+            } else if(playerPos == "K") {
+                query.slotCategoryId = 17;
+            }
+        }
 
         return this.espnGetAndParse('waivers', 'freeagency', query, callback)
     }
