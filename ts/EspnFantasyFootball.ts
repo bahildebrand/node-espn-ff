@@ -78,6 +78,20 @@ export default class EspnFantasyFootball {
     /**
      * Gets the top waiver players.
      *
+     * @param {FetchParseCallback<types.IFantasyTeam[]>} callback
+     * @returns {void}
+     *
+     * @memberOf EspnFantasyFootball
+     */
+    public getStandings(callback: FetchParseCallback<types.IFantasyTeam[]>): void {
+        let query: any = {};
+
+        return this.espnGetAndParse('standings', 'standings', query, callback)
+    }
+
+    /**
+     * Gets the top waiver players.
+     *
      * @param {string} playerPos - Can be null for no position requested
      * @param {FetchParseCallback<types.IPlayer[]>} callback
      * @returns {void}

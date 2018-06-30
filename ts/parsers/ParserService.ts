@@ -23,6 +23,7 @@ export class ParserService {
         this.addParsers('./Owners');
         this.addParsers('./Scoreboard');
         this.addParsers('./Waivers');
+        this.addParsers('./Standings');
     }
 
     parseHtmlContent(key: string, html: string): any {
