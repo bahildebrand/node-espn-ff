@@ -76,7 +76,7 @@ export default class EspnFantasyFootball {
     }
 
     /**
-     * Gets the top waiver players.
+     * Get current team standings in league.
      *
      * @param {FetchParseCallback<types.IFantasyTeam[]>} callback
      * @returns {void}

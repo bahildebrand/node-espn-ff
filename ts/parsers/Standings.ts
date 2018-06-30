@@ -30,7 +30,7 @@ export default class Standings implements IContentParser {
                 name = strSplit[0].trim();
                 owner_name = strSplit[1].slice(0, -1);
             } else {
-                name = strSplit;
+                name = teamStr;
                 owner_name = '';
             }
 
@@ -45,7 +45,6 @@ export default class Standings implements IContentParser {
             standings.push(team);
         });
 
-        console.log(standings);
         return standings;
     }
 }
