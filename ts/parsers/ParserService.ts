@@ -32,7 +32,7 @@ export class ParserService {
         let rootParser = this.parsers.get(key);
 
         if (!rootParser) {
-            throw new Error(`Unable to find parser '${key}' avaliable parsers -> [${this.parsers.keys().map(k => `'${k}'`).join(', ')}]`)
+            throw new Error(`Unable to find parser ${key}`);
         }
 
         return rootParser.parse(new ParseContext(selector, this));
