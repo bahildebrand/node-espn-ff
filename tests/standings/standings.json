@@ -1,0 +1,34 @@
+[
+  {
+    "division": "EAST",
+    "id": 0,
+    "name": "Team Hildebrand",
+    "owner_name": "Blake Hildebrand",
+    "record": "",
+    "short_name": ""
+  },
+  {
+    "division": "EAST",
+    "id": 0,
+    "name": "Team 2",
+    "owner_name": "",
+    "record": "",
+    "short_name": ""
+  },
+  {
+    "division": "EAST",
+    "id": 0,
+    "name": "Team 3",
+    "owner_name": "",
+    "record": "",
+    "short_name": ""
+  },
+  {
+    "division": "EAST",
+    "id": 0,
+    "name": "Team 4",
+    "owner_name": "",
+    "record": "",
+    "short_name": ""
+  }
+]
