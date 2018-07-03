@@ -1,0 +1,61 @@
+
+
+[
+  {
+    "away_team": {
+      "current_points": 0,
+      "division": null,
+      "id": 1,
+      "in_play": 0,
+      "mins_left": 540,
+      "name": "Team Hildebrand",
+      "owner_name": "Blake Hildebrand",
+      "projected_points": 0,
+      "record": "0-0",
+      "short_name": "HILD",
+      "yet_to_play": 9
+    },
+    "home_team": {
+      "current_points": 0,
+      "division": null,
+      "id": 4,
+      "in_play": 0,
+      "mins_left": 540,
+      "name": "Team 4",
+      "owner_name": "",
+      "projected_points": 0,
+      "record": "0-0",
+      "short_name": "TM4",
+      "yet_to_play": 9
+    }
+  },
+  {
+    "away_team": {
+      "current_points": 0,
+      "division": null,
+      "id": 3,
+      "in_play": 0,
+      "mins_left": 540,
+      "name": "Team 3",
+      "owner_name": "",
+      "projected_points": 0,
+      "record": "0-0",
+      "short_name": "TM3",
+      "yet_to_play": 9
+    },
+    "home_team": {
+      "current_points": 0,
+      "division": null,
+      "id": 2,
+      "in_play": 0,
+      "mins_left": 480,
+      "name": "Team 2",
+      "owner_name": "",
+      "projected_points": 0,
+      "record": "0-0",
+      "short_name": "TM2",
+      "yet_to_play": 8
+    }
+  }
+]
+
