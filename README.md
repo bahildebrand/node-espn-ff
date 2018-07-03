@@ -1,4 +1,5 @@
 # node-espn-ff
+[![Build Status](https://travis-ci.org/bahildebrand/node-espn-ff.svg?branch=master)](https://travis-ci.org/bahildebrand/node-espn-ff)
 
 Scrape basic league information from ESPN Fantasy football.
 
