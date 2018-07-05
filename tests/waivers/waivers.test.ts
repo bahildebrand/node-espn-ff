@@ -11,7 +11,7 @@ const scraper = new EspnFantasyFootball({
 
 jest.mock('request');
 
-test('Verify that matchups are correctly parsed', () => {
+test('Verify that waivers are correctly parsed', () => {
     request.mockImplementation(requestMock);
 
     scraper.getWaivers(null, (err, players) => {
