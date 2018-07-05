@@ -74,18 +74,19 @@ export default class ClubhouseParser implements IContentParser {
             // Human player
             let parts = playerText.split(',').map(p => p.trim());
             playerText = parts[0];
-            team = parts[1].split(' ')[0];
+            team = parts[1].split('&nbsp;')[0];
         }
 
+        playerText = playerText.split('&nbsp;')[0];
         return {
             name: playerText,
             team: team,
             id: 1,
             season_statistics: {
-                player_rank: parseInt(cheerio('td:nth-of-type(8)', element).text()),
-                total_points: parseFloat(cheerio('td:nth-of-type(9)', element).text()),
-                average_points: parseFloat(cheerio('td:nth-of-type(10)', element).text()),
-                last_game_points: parseFloat(cheerio('td:nth-of-type(11)', element).text()),
+                player_rank: this.checkPointValue(cheerio('td:nth-of-type(7)', element).text()),
+                total_points: this.checkPointValue(cheerio('td:nth-of-type(8)', element).text()),
+                average_points: this.checkPointValue(cheerio('td:nth-of-type(9)', element).text()),
+                last_game_points: this.checkPointValue(cheerio('td:nth-of-type(10)', element).text()),
                 projected_points: 1
             }
         };
@@ -93,7 +94,7 @@ export default class ClubhouseParser implements IContentParser {
 
     private parsePlayerMatchup(element: any): types.IPlayerMatchup {
 
-        let oppenent_rank : any = cheerio('td:nth-of-type(14)', element).text();
+        let oppenent_rank : any = cheerio('td:nth-of-type(13)', element).text();
 
         // Empty slot
         if(oppenent_rank == '--') {
@@ -103,11 +104,15 @@ export default class ClubhouseParser implements IContentParser {
         oppenent_rank = parseInt(/([0-9]+)/.exec(oppenent_rank)[0]);
 
         return {
-            projected_or_current_points: parseFloat(cheerio('td:nth-of-type(13)', element).text()),
-            opponent_rank: 1,
-            percent_start: parseFloat(cheerio('td:nth-of-type(15)', element).text()),
-            percent_own: parseFloat(cheerio('td:nth-of-type(16)', element).text()),
-            percent_own_delta: parseFloat(cheerio('td:nth-of-type(17)', element).text())
+            projected_or_current_points: this.checkPointValue(cheerio('td:nth-of-type(12)', element).text()),
+            opponent_rank: oppenent_rank,
+            percent_start: this.checkPointValue(cheerio('td:nth-of-type(14)', element).text()),
+            percent_own: this.checkPointValue(cheerio('td:nth-of-type(15)', element).text()),
+            percent_own_delta: this.checkPointValue(cheerio('td:nth-of-type(16)', element).text())
         }
+    }
+
+    private checkPointValue(points: string): number {
+        return (points == '--') ? 0 : parseFloat(points);
     }
 }
