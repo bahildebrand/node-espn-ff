@@ -1,0 +1,391 @@
+{
+  "bench": [
+    {
+      "gameStart": "Thu 8:20",
+      "matchup": {
+        "opponent_rank": 12,
+        "percent_own": 76.1,
+        "percent_own_delta": -0.2,
+        "percent_start": 8.5,
+        "projected_or_current_points": 0
+      },
+      "opponent": "Thu 8:20",
+      "player": {
+        "id": 1,
+        "name": "Nelson Agholor",
+        "season_statistics": {
+          "average_points": 12.1,
+          "last_game_points": 0,
+          "player_rank": 23,
+          "projected_points": 1,
+          "total_points": 193.5
+        },
+        "team": "Phi"
+      },
+      "slot": "Bench"
+    },
+    {
+      "gameStart": "Sun 4:25",
+      "matchup": {
+        "opponent_rank": 5,
+        "percent_own": 0,
+        "percent_own_delta": 0,
+        "percent_start": 0,
+        "projected_or_current_points": 0
+      },
+      "opponent": "Sun 4:25",
+      "player": {
+        "id": 1,
+        "name": "Carlton Agudosi",
+        "season_statistics": {
+          "average_points": 0,
+          "last_game_points": 0,
+          "player_rank": 198,
+          "projected_points": 1,
+          "total_points": 0
+        },
+        "team": "Ari"
+      },
+      "slot": "Bench"
+    },
+    {
+      "gameStart": "Sun 1:00",
+      "matchup": {
+        "opponent_rank": 2,
+        "percent_own": 0.2,
+        "percent_own_delta": 0,
+        "percent_start": 0,
+        "projected_or_current_points": 0
+      },
+      "opponent": "Sun 1:00",
+      "player": {
+        "id": 1,
+        "name": "Kamar Aiken",
+        "season_statistics": {
+          "average_points": 1.8,
+          "last_game_points": 0,
+          "player_rank": 129,
+          "projected_points": 1,
+          "total_points": 28.3
+        },
+        "team": "Ind"
+      },
+      "slot": "Bench"
+    },
+    {
+      "gameStart": "Thu 8:20",
+      "matchup": {
+        "opponent_rank": 11,
+        "percent_own": 98.9,
+        "percent_own_delta": -0.1,
+        "percent_start": 73.4,
+        "projected_or_current_points": 0
+      },
+      "opponent": "Thu 8:20",
+      "player": {
+        "id": 1,
+        "name": "Jay Ajayi",
+        "season_statistics": {
+          "average_points": 9,
+          "last_game_points": 0,
+          "player_rank": 36,
+          "projected_points": 1,
+          "total_points": 135.1
+        },
+        "team": "Phi"
+      },
+      "slot": "Bench"
+    },
+    {
+      "gameStart": "Sun 4:05",
+      "matchup": {
+        "opponent_rank": 6,
+        "percent_own": 0,
+        "percent_own_delta": 0,
+        "percent_start": 0,
+        "projected_or_current_points": 0
+      },
+      "opponent": "Sun 4:05",
+      "player": {
+        "id": 1,
+        "name": "Jeff Cumberland",
+        "season_statistics": {
+          "average_points": 0.1,
+          "last_game_points": 0,
+          "player_rank": 105,
+          "projected_points": 1,
+          "total_points": 2.2
+        },
+        "team": "LAC"
+      },
+      "slot": "Bench"
+    },
+    {
+      "gameStart": "Sun 8:20",
+      "matchup": {
+        "opponent_rank": 23,
+        "percent_own": 0.2,
+        "percent_own_delta": 0,
+        "percent_start": 0,
+        "projected_or_current_points": 0
+      },
+      "opponent": "Sun 8:20",
+      "player": {
+        "id": 1,
+        "name": "Benny Cunningham",
+        "season_statistics": {
+          "average_points": 3.6,
+          "last_game_points": 0,
+          "player_rank": 76,
+          "projected_points": 1,
+          "total_points": 56.9
+        },
+        "team": "Chi"
+      },
+      "slot": "Bench"
+    },
+    {
+      "gameStart": "Mon 10:20",
+      "matchup": {
+        "opponent_rank": 8,
+        "percent_own": 27.4,
+        "percent_own_delta": 0.5,
+        "percent_start": 5.8,
+        "projected_or_current_points": 0
+      },
+      "opponent": "Mon 10:20",
+      "player": {
+        "id": 1,
+        "name": "Derek Carr",
+        "season_statistics": {
+          "average_points": 12.9,
+          "last_game_points": 0,
+          "player_rank": 19,
+          "projected_points": 1,
+          "total_points": 206.4
+        },
+        "team": "Oak"
+      },
+      "slot": "Bench"
+    }
+  ],
+  "starters": [
+    {
+      "gameStart": "Mon 7:10",
+      "matchup": {
+        "opponent_rank": 13,
+        "percent_own": 2.6,
+        "percent_own_delta": -0.4,
+        "percent_start": 0.2,
+        "projected_or_current_points": 0
+      },
+      "opponent": "Mon 7:10",
+      "player": {
+        "id": 1,
+        "name": "Teddy Bridgewater",
+        "season_statistics": {
+          "average_points": -0.1,
+          "last_game_points": 0,
+          "player_rank": 107,
+          "projected_points": 1,
+          "total_points": -2.3
+        },
+        "team": "NYJ"
+      },
+      "slot": "QB"
+    },
+    {
+      "gameStart": "Mon 7:10",
+      "matchup": {
+        "opponent_rank": 24,
+        "percent_own": 4.2,
+        "percent_own_delta": -0.3,
+        "percent_start": 0.2,
+        "projected_or_current_points": 0
+      },
+      "opponent": "Mon 7:10",
+      "player": {
+        "id": 1,
+        "name": "Ameer Abdullah",
+        "season_statistics": {
+          "average_points": 7.8,
+          "last_game_points": 0,
+          "player_rank": 40,
+          "projected_points": 1,
+          "total_points": 124.4
+        },
+        "team": "Det"
+      },
+      "slot": "RB"
+    },
+    {
+      "gameStart": "Thu 8:20",
+      "matchup": {
+        "opponent_rank": 11,
+        "percent_own": 1.3,
+        "percent_own_delta": 0,
+        "percent_start": 0,
+        "projected_or_current_points": 0
+      },
+      "opponent": "Thu 8:20",
+      "player": {
+        "id": 1,
+        "name": "Josh Adams",
+        "season_statistics": {
+          "average_points": 0,
+          "last_game_points": 0,
+          "player_rank": 0,
+          "projected_points": 1,
+          "total_points": 0
+        },
+        "team": "Phi"
+      },
+      "slot": "RB"
+    },
+    {
+      "gameStart": "Mon 7:10",
+      "matchup": {
+        "opponent_rank": 24,
+        "percent_own": 0,
+        "percent_own_delta": 0,
+        "percent_start": 0,
+        "projected_or_current_points": 0
+      },
+      "opponent": "Mon 7:10",
+      "player": {
+        "id": 1,
+        "name": "Jared Abbrederis",
+        "season_statistics": {
+          "average_points": 0.5,
+          "last_game_points": 0,
+          "player_rank": 171,
+          "projected_points": 1,
+          "total_points": 7.4
+        },
+        "team": "Det"
+      },
+      "slot": "WR"
+    },
+    {
+      "gameStart": "Sun 8:20",
+      "matchup": {
+        "opponent_rank": 15,
+        "percent_own": 99.7,
+        "percent_own_delta": 0,
+        "percent_start": 96.5,
+        "projected_or_current_points": 0
+      },
+      "opponent": "Sun 8:20",
+      "player": {
+        "id": 1,
+        "name": "Davante Adams",
+        "season_statistics": {
+          "average_points": 13.9,
+          "last_game_points": 0,
+          "player_rank": 14,
+          "projected_points": 1,
+          "total_points": 222.5
+        },
+        "team": "GB"
+      },
+      "slot": "WR"
+    },
+    {
+      "gameStart": "Sun 1:00",
+      "matchup": {
+        "opponent_rank": 10,
+        "percent_own": 0,
+        "percent_own_delta": 0,
+        "percent_start": 0,
+        "projected_or_current_points": 0
+      },
+      "opponent": "Sun 1:00",
+      "player": {
+        "id": 1,
+        "name": "Jerell Adams",
+        "season_statistics": {
+          "average_points": 1.1,
+          "last_game_points": 0,
+          "player_rank": 75,
+          "projected_points": 1,
+          "total_points": 17.2
+        },
+        "team": "NYG"
+      },
+      "slot": "TE"
+    },
+    {
+      "gameStart": "Sun 1:00",
+      "matchup": {
+        "opponent_rank": 19,
+        "percent_own": 0,
+        "percent_own_delta": 0,
+        "percent_start": 0,
+        "projected_or_current_points": 0
+      },
+      "opponent": "Sun 1:00",
+      "player": {
+        "id": 1,
+        "name": "Rodney Adams",
+        "season_statistics": {
+          "average_points": 0,
+          "last_game_points": 0,
+          "player_rank": 198,
+          "projected_points": 1,
+          "total_points": 0
+        },
+        "team": "Min"
+      },
+      "slot": "FLEX"
+    },
+    {
+      "gameStart": "Sun 1:00",
+      "matchup": {
+        "opponent_rank": 2,
+        "percent_own": 2,
+        "percent_own_delta": -0.1,
+        "percent_start": 0.8,
+        "projected_or_current_points": 0
+      },
+      "opponent": "Sun 1:00",
+      "player": {
+        "id": 1,
+        "name": "Buccaneers D/ST",
+        "season_statistics": {
+          "average_points": 4.9,
+          "last_game_points": 0,
+          "player_rank": 24,
+          "projected_points": 1,
+          "total_points": 79
+        },
+        "team": "N/A"
+      },
+      "slot": "D/ST"
+    },
+    {
+      "gameStart": "Sun 4:05",
+      "matchup": {
+        "opponent_rank": 5,
+        "percent_own": 0.1,
+        "percent_own_delta": -0.1,
+        "percent_start": 0,
+        "projected_or_current_points": 0
+      },
+      "opponent": "Sun 4:05",
+      "player": {
+        "id": 1,
+        "name": "Roberto Aguayo",
+        "season_statistics": {
+          "average_points": 0,
+          "last_game_points": 0,
+          "player_rank": 43,
+          "projected_points": 1,
+          "total_points": 0
+        },
+        "team": "LAC"
+      },
+      "slot": "K"
+    }
+  ],
+  "week": 1
+}
