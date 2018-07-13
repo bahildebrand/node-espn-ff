@@ -28,14 +28,14 @@ export default class OwnersParser implements IContentParser {
 
         let id = cheerio('td:nth-of-type(1)', element).text();
 
-        if(!id || id.length === 0 || id.trim().length === 0) return null;
+        if(!id || id.length === 0 || id.trim().length === 0 || id == '&nbsp;') return null;
 
         return {
             id: parseInt(id),
             short_name: cheerio('td:nth-of-type(2)', element).text(),
             name: cheerio('td:nth-of-type(3)', element).text(),
             division: cheerio('td:nth-of-type(4)', element).text(),
-            owner_name: cheerio('td:nth-of-type(5)', element).text()
+            owner_name: cheerio('td:nth-of-type(5)', element).text().trim()
         }
     }
 }
