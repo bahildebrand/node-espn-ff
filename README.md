@@ -1,5 +1,5 @@
 # node-espn-ff
-[![Build Status](https://travis-ci.org/bahildebrand/node-espn-ff.svg?branch=master)](https://travis-ci.org/bahildebrand/node-espn-ff)
+[![Build Status](https://travis-ci.org/bahildebrand/node-espn-ff.svg?branch=master)](https://travis-ci.org/bahildebrand/node-espn-ff) [![Greenkeeper badge](https://badges.greenkeeper.io/bahildebrand/node-espn-ff.svg)](https://greenkeeper.io/)
 
 Scrape basic league information from ESPN Fantasy football.
 
