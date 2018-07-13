@@ -1,20 +1,17 @@
 import EspnFantasyFootball from "./../../ts/EspnFantasyFootball";
 import * as request from 'request';
 import ownersHTML from './OwnersHtml';
+import * as init from './../init'
 
 var ownersResult = require('./owners.json');
-
-const scraper = new EspnFantasyFootball({
-    leagueId: 106980 //Test league I created for this purpose.
-});
 
 // jest.mock('request');
 
 test('Check that rosters are correctly parsed', () => {
     // request.mockImplementation(requestMock);
 
-    scraper.getFantasyTeams((err, teams) => {
-        // expect(teams).toEqual(ownersResult);
+    init.scraper.getFantasyTeams((err, teams) => {
+        expect(teams).toEqual(ownersResult);
     });
   });
 

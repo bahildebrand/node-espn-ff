@@ -1,19 +1,16 @@
 import EspnFantasyFootball from "./../../ts/EspnFantasyFootball";
 import * as request from 'request';
 import standingsHTML from './LeagueStandingsHtml';
+import * as init from './../init'
 
 var standingsResult = require('./standings.json');
 
-const scraper = new EspnFantasyFootball({
-    leagueId: 106980 //Test league I created for this purpose.
-});
-
-jest.mock('request');
+// jest.mock('request');
 
 test('Check that standings are correctly parsed', () => {
-    request.mockImplementation(requestMock);
+    // request.mockImplementation(requestMock);
 
-    scraper.getStandings((err, teams) => {
+    init.scraper.getStandings((err, teams) => {
         expect(teams).toEqual(standingsResult);
     });
   });

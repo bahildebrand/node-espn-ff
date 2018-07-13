@@ -2,19 +2,16 @@ import EspnFantasyFootball from "./../../ts/EspnFantasyFootball";
 import * as request from 'request';
 import * as html from './WaiversHtml';
 import * as results from './WaiverResults'
+import * as init from './../init'
 
 // var matchupsResult = require('./waivers.json');
 
-const scraper = new EspnFantasyFootball({
-    leagueId: 106980 //Test league I created for this purpose.
-});
-
-jest.mock('request');
+// jest.mock('request');
 
 test('Verify that waivers are correctly parsed', () => {
-    request.mockImplementation(requestMock);
+    // request.mockImplementation(requestMock);
 
-    scraper.getWaivers(null, (err, players) => {
+    init.scraper.getWaivers(null, (err, players) => {
         expect(JSON.stringify(players)).toEqual(results.noFilterStr);
     });
   });

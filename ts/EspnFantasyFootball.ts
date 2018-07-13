@@ -1,6 +1,7 @@
 const BaseUrl = 'http://games.espn.com/ffl';
 
 import * as request from 'request';
+import * as tc from 'tough-cookie';
 import * as types from './types';
 import { ParserService } from './parsers/ParserService';
 
@@ -21,12 +22,37 @@ export interface ConstructorOptions {
     leagueId: number;
 
     /**
-     * Optional. Cookie used to send requests, you will need this for non public leagues.
+     * Required. Cookies used to send requests.
      *
      * @type {string}
      * @memberOf ConstructorOptions
      */
-    cookie?: string;
+    cookies: Cookies;
+}
+
+/**
+ *Cookies needed to fetch pages that need login
+ *
+ * @export
+ * @interface Cookies
+ */
+export interface Cookies {
+
+    /**
+     * Cookie needed for logged in pages. See README for how to obtain
+     *
+     * @type {string}
+     * @memberOf Cookies
+     */
+    espnS2: string;
+
+    /**
+     * Cookie needed for logged in pages. See README for how to obtain
+     *
+     * @type {string}
+     * @memberOf Cookies
+     */
+    SWID: string;
 }
 
 /**
@@ -182,20 +208,35 @@ export default class EspnFantasyFootball {
         urlQuery = urlQuery || {};
         urlQuery.leagueId = this.options.leagueId;
 
-        const options: request.Options = {
+        const espnS2 = new tc.Cookie({
+            key    : 'espn_s2',
+            value  : this.options.cookies.espnS2,
+            domain : 'espn.com'
+          });
+          const SWID = new tc.Cookie({
+            key    : 'SWID',
+            value  : this.options.cookies.SWID,
+            domain : 'espn.com'
+        });
+
+        let cJar: request.CookieJar = request.jar();
+
+        // console.log(cJar);
+
+        cJar.setCookie(espnS2, 'http://games.espn.com/');
+        cJar.setCookie(SWID, 'http://games.espn.com/');
+
+        const rOptions: request.Options = {
             method: 'GET',
             url: BaseUrl + '/' + fragment,
             qs: urlQuery,
+            jar: cJar,
             headers: {
                 'Accept': 'text/html',
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36'
             }
         };
 
-        if (this.options.cookie) {
-            options.headers['Cookie'] = this.options.cookie;
-        }
-
-        request(options, callback);
+        request(rOptions, callback);
     }
 }
