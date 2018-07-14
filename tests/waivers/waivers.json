@@ -1,0 +1,655 @@
+
+
+[
+    {
+      "name": "Todd Gurley II",
+      "team": "LAR",
+      "id": 1,
+      "position": "RB",
+      "season_statistics": {
+        "player_rank": 1,
+        "total_points": 383.3,
+        "average_points": 24,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Russell Wilson",
+      "team": "Sea",
+      "id": 1,
+      "position": "QB",
+      "season_statistics": {
+        "player_rank": 1,
+        "total_points": 347.9,
+        "average_points": 21.7,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Le'Veon Bell",
+      "team": "Pit",
+      "id": 1,
+      "position": "RB",
+      "season_statistics": {
+        "player_rank": 2,
+        "total_points": 341.6,
+        "average_points": 21.4,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Alvin Kamara",
+      "team": "NO",
+      "id": 1,
+      "position": "RB",
+      "season_statistics": {
+        "player_rank": 3,
+        "total_points": 320.4,
+        "average_points": 20,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Antonio Brown",
+      "team": "Pit",
+      "id": 1,
+      "position": "WR",
+      "season_statistics": {
+        "player_rank": 1,
+        "total_points": 310.3,
+        "average_points": 19.4,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "DeAndre Hopkins",
+      "team": "Hou",
+      "id": 1,
+      "position": "WR",
+      "season_statistics": {
+        "player_rank": 2,
+        "total_points": 309.8,
+        "average_points": 19.4,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Cam Newton",
+      "team": "Car",
+      "id": 1,
+      "position": "QB",
+      "season_statistics": {
+        "player_rank": 2,
+        "total_points": 299.5,
+        "average_points": 18.7,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Tom Brady",
+      "team": "NE",
+      "id": 1,
+      "position": "QB",
+      "season_statistics": {
+        "player_rank": 3,
+        "total_points": 295.9,
+        "average_points": 18.5,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Kareem Hunt",
+      "team": "KC",
+      "id": 1,
+      "position": "RB",
+      "season_statistics": {
+        "player_rank": 4,
+        "total_points": 295.2,
+        "average_points": 18.5,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Alex Smith",
+      "team": "Wsh",
+      "id": 1,
+      "position": "QB",
+      "season_statistics": {
+        "player_rank": 4,
+        "total_points": 295.2,
+        "average_points": 18.4,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Melvin Gordon",
+      "team": "LAC",
+      "id": 1,
+      "position": "RB",
+      "season_statistics": {
+        "player_rank": 5,
+        "total_points": 288.1,
+        "average_points": 18,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Carson Wentz",
+      "team": "Phi",
+      "id": 1,
+      "position": "QB",
+      "season_statistics": {
+        "player_rank": 5,
+        "total_points": 281.7,
+        "average_points": 17.6,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Mark Ingram",
+      "team": "NO",
+      "id": 1,
+      "position": "RB",
+      "season_statistics": {
+        "player_rank": 6,
+        "total_points": 278,
+        "average_points": 17.4,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Kirk Cousins",
+      "team": "Min",
+      "id": 1,
+      "position": "QB",
+      "season_statistics": {
+        "player_rank": 6,
+        "total_points": 277.6,
+        "average_points": 17.4,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Matthew Stafford",
+      "team": "Det",
+      "id": 1,
+      "position": "QB",
+      "season_statistics": {
+        "player_rank": 7,
+        "total_points": 273.6,
+        "average_points": 17.1,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Philip Rivers",
+      "team": "LAC",
+      "id": 1,
+      "position": "QB",
+      "season_statistics": {
+        "player_rank": 8,
+        "total_points": 270.4,
+        "average_points": 16.9,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "LeSean McCoy",
+      "team": "Buf",
+      "id": 1,
+      "position": "RB",
+      "season_statistics": {
+        "player_rank": 7,
+        "total_points": 263.6,
+        "average_points": 16.5,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Drew Brees",
+      "team": "NO",
+      "id": 1,
+      "position": "QB",
+      "season_statistics": {
+        "player_rank": 9,
+        "total_points": 262.6,
+        "average_points": 16.4,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Larry Fitzgerald",
+      "team": "Ari",
+      "id": 1,
+      "position": "WR",
+      "season_statistics": {
+        "player_rank": 4,
+        "total_points": 261.4,
+        "average_points": 16.3,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Ben Roethlisberger",
+      "team": "Pit",
+      "id": 1,
+      "position": "QB",
+      "season_statistics": {
+        "player_rank": 10,
+        "total_points": 260.7,
+        "average_points": 16.3,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Dak Prescott",
+      "team": "Dal",
+      "id": 1,
+      "position": "QB",
+      "season_statistics": {
+        "player_rank": 11,
+        "total_points": 260.7,
+        "average_points": 16.3,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Jarvis Landry",
+      "team": "Cle",
+      "id": 1,
+      "position": "WR",
+      "season_statistics": {
+        "player_rank": 5,
+        "total_points": 260,
+        "average_points": 16.3,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Michael Thomas",
+      "team": "NO",
+      "id": 1,
+      "position": "WR",
+      "season_statistics": {
+        "player_rank": 6,
+        "total_points": 258.5,
+        "average_points": 16.2,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Jared Goff",
+      "team": "LAR",
+      "id": 1,
+      "position": "QB",
+      "season_statistics": {
+        "player_rank": 12,
+        "total_points": 255.3,
+        "average_points": 16,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Julio Jones",
+      "team": "Atl",
+      "id": 1,
+      "position": "WR",
+      "season_statistics": {
+        "player_rank": 7,
+        "total_points": 251.9,
+        "average_points": 15.7,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Blake Bortles",
+      "team": "Jax",
+      "id": 1,
+      "position": "QB",
+      "season_statistics": {
+        "player_rank": 13,
+        "total_points": 249.7,
+        "average_points": 15.6,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Tyreek Hill",
+      "team": "KC",
+      "id": 1,
+      "position": "WR",
+      "season_statistics": {
+        "player_rank": 8,
+        "total_points": 245.2,
+        "average_points": 15.3,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Adam Thielen",
+      "team": "Min",
+      "id": 1,
+      "position": "WR",
+      "season_statistics": {
+        "player_rank": 9,
+        "total_points": 239.7,
+        "average_points": 15,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Case Keenum",
+      "team": "Den",
+      "id": 1,
+      "position": "QB",
+      "season_statistics": {
+        "player_rank": 14,
+        "total_points": 237.9,
+        "average_points": 14.9,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Carlos Hyde",
+      "team": "Cle",
+      "id": 1,
+      "position": "RB",
+      "season_statistics": {
+        "player_rank": 8,
+        "total_points": 233.8,
+        "average_points": 14.6,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Travis Kelce",
+      "team": "KC",
+      "id": 1,
+      "position": "TE",
+      "season_statistics": {
+        "player_rank": 1,
+        "total_points": 233.5,
+        "average_points": 14.6,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Leonard Fournette",
+      "team": "Jax",
+      "id": 1,
+      "position": "RB",
+      "season_statistics": {
+        "player_rank": 9,
+        "total_points": 230.2,
+        "average_points": 14.4,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Christian McCaffrey",
+      "team": "Car",
+      "id": 1,
+      "position": "RB",
+      "season_statistics": {
+        "player_rank": 10,
+        "total_points": 228.6,
+        "average_points": 14.3,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Matt Ryan",
+      "team": "Atl",
+      "id": 1,
+      "position": "QB",
+      "season_statistics": {
+        "player_rank": 15,
+        "total_points": 228.1,
+        "average_points": 14.3,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Rob Gronkowski",
+      "team": "NE",
+      "id": 1,
+      "position": "TE",
+      "season_statistics": {
+        "player_rank": 2,
+        "total_points": 227.4,
+        "average_points": 14.2,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "A.J. Green",
+      "team": "Cin",
+      "id": 1,
+      "position": "WR",
+      "season_statistics": {
+        "player_rank": 10,
+        "total_points": 226.8,
+        "average_points": 14.2,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Marvin Jones Jr.",
+      "team": "Det",
+      "id": 1,
+      "position": "WR",
+      "season_statistics": {
+        "player_rank": 11,
+        "total_points": 225.1,
+        "average_points": 14.1,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Golden Tate",
+      "team": "Det",
+      "id": 1,
+      "position": "WR",
+      "season_statistics": {
+        "player_rank": 12,
+        "total_points": 224.5,
+        "average_points": 14,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Tyrod Taylor",
+      "team": "Cle",
+      "id": 1,
+      "position": "QB",
+      "season_statistics": {
+        "player_rank": 16,
+        "total_points": 222.7,
+        "average_points": 13.9,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Brandin Cooks",
+      "team": "LAR",
+      "id": 1,
+      "position": "WR",
+      "season_statistics": {
+        "player_rank": 15,
+        "total_points": 221.2,
+        "average_points": 13.8,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Duke Johnson Jr.",
+      "team": "Cle",
+      "id": 1,
+      "position": "RB",
+      "season_statistics": {
+        "player_rank": 11,
+        "total_points": 216.1,
+        "average_points": 13.5,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Andy Dalton",
+      "team": "Cin",
+      "id": 1,
+      "position": "QB",
+      "season_statistics": {
+        "player_rank": 17,
+        "total_points": 210.7,
+        "average_points": 13.2,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Marcus Mariota",
+      "team": "Ten",
+      "id": 1,
+      "position": "QB",
+      "season_statistics": {
+        "player_rank": 18,
+        "total_points": 210.5,
+        "average_points": 13.2,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Jaguars D\/ST",
+      "team": "Jaguars",
+      "id": 1,
+      "position": "D\/ST",
+      "season_statistics": {
+        "player_rank": 1,
+        "total_points": 208,
+        "average_points": 13,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Jacoby Brissett",
+      "team": "Ind",
+      "id": 1,
+      "position": "QB",
+      "season_statistics": {
+        "player_rank": 20,
+        "total_points": 205.9,
+        "average_points": 12.9,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Demaryius Thomas",
+      "team": "Den",
+      "id": 1,
+      "position": "WR",
+      "season_statistics": {
+        "player_rank": 16,
+        "total_points": 205.9,
+        "average_points": 12.9,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Josh McCown",
+      "team": "NYJ",
+      "id": 1,
+      "position": "QB",
+      "season_statistics": {
+        "player_rank": 21,
+        "total_points": 205.4,
+        "average_points": 12.8,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Ezekiel Elliott",
+      "team": "Dal",
+      "id": 1,
+      "position": "RB",
+      "season_statistics": {
+        "player_rank": 12,
+        "total_points": 203.2,
+        "average_points": 12.7,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Mike Evans",
+      "team": "TB",
+      "id": 1,
+      "position": "WR",
+      "season_statistics": {
+        "player_rank": 17,
+        "total_points": 203.1,
+        "average_points": 12.7,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    },
+    {
+      "name": "Dion Lewis",
+      "team": "Ten",
+      "id": 1,
+      "position": "RB",
+      "season_statistics": {
+        "player_rank": 13,
+        "total_points": 203,
+        "average_points": 12.7,
+        "last_game_points": 0,
+        "projected_points": 0
+      }
+    }
+  ]
+
